@@ -24,7 +24,7 @@ else:
     print(f"{nome} você é obrigado a votar")
 
 #Verificando se a pessoa que passou as informações tem idade para servir
-if sex == 'F':
+if sex != 'M':
     print(f"{nome}, voce nao é obrigada a servir!")
 else:
     if idade < 17:
